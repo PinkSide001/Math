@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main(){
+	float a;
+	printf("enter score:");
+	scanf("%f",&a);
+	if (a < 50)
+	printf("grade f");
+	else if (a < 60)
+	printf("grade d");
+	else if (a < 70)
+	printf("grade c");
+	else if (a < 85)
+	printf("grade b");
+	else 
+	printf("grade a");	
+}
+   
